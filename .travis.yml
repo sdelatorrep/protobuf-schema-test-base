@@ -1,0 +1,11 @@
+language: python
+sudo: true
+python:
+  - 2.7
+branches:
+  only:
+    - develop-proto
+install:
+  - pip install -r requirements.txt
+script:
+  - flake8 tests
