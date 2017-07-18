@@ -14,7 +14,7 @@ setup(
     url="https://github.com/sdelatorrep/protobuf-schema-test-base",
     license="Apache 2",
     packages=['tests','ga4gh'],
-    namespace_packages=["ga4gh"]
+    namespace_packages=["ga4gh"],
     classifiers=[
         "License :: OSI Approved :: Apache 2 License",
     ]
