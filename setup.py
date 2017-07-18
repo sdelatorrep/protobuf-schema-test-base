@@ -13,8 +13,7 @@ setup(
     description="Base for tests of Protobuf schemas",
     url="https://github.com/sdelatorrep/protobuf-schema-test-base",
     license="Apache 2",
-    packages=['tests','ga4gh'],
-    namespace_packages=["ga4gh"],
+    packages=['tests'],
     classifiers=[
         "License :: OSI Approved :: Apache 2 License",
     ]
